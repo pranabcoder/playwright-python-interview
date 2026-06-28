@@ -1,3 +1,5 @@
+import time
+
 import pytest
 from pages.LoginPage import LoginPage
 from config.framework_config import config
@@ -10,3 +12,4 @@ def test_login(page):
 
     login.login("Admin", "admin123")
     login.verify_login()
+    time.sleep(5)
