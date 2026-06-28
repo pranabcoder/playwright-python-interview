@@ -1,0 +1,34 @@
+{
+  "login_page": {
+    "username": {
+      "type": "get_by_placeholder",
+      "value": "Username"
+    },
+    "password": {
+      "type": "get_by_placeholder",
+      "value": "Password"
+    },
+    "login_button": {
+      "type": "get_by_role",
+      "value": {
+        "role": "button",
+        "name": "Login"
+      }
+    },
+    "dashboard": {
+      "type": "get_by_role",
+      "value": {
+        "role": "heading"
+      }
+    }
+  },
+  "leave_page": {
+    "leave_page_link": {
+      "type": "get_by_text",
+      "value": "Leave",
+      "options": {
+        "exact": true
+      }
+    }
+  }
+}

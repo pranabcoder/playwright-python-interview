@@ -1,2 +1,5 @@
 .venv\
 .idea\
+videos\
+traces\
+allure-results\
